@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+<title>Login V15</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+<script src="js/app.js"></script>
+
+<!--===============================================================================================-->
+<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css"
+	href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+
+<script src="vendor/modernizr-2.6.2.min.js"></script>
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="css/util.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/templatemo-style.css">
+<link rel="stylesheet" href="css/style.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div>
+
+		<div class="header-wrap" ng-show="navBar">
+			<div class="container">
+				<div id="header">
+
+					<div class="logo-wrap">
+						<h2 id="logo" class="image-logo" itemprop="headline">
+							<a href="https://demo.mythemeshop.com/socialme"><img
+								src="img/logo.png" alt="" class="wp-post-image"></a>
+						</h2>
+						<!-- END #logo -->
+					</div>
+
+					<div id="primary-navigation" role="navigation" itemscope=""
+						itemtype="http://schema.org/SiteNavigationElement">
+						<a href="#" id="pull" class="toggle-mobile-menu"><i
+							class="fa fa-bars"></i></a>
+						<nav class="navigation clearfix mobile-menu-wrapper">
+							<ul id="menu-menu" class="menu clearfix toggle-menu">
+								<li id="menu-item-433"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-433"><a
+									href="#/home">Home</a></li>
+								<li id="menu-item-396"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item menu-item-396 "><a
+									href="#/about">About</a> <!-- <span class="toggle-caret"><i
+								class="fa fa-plus"></i></span> --></li>
+								<li id="menu-item-415"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-415"><a
+									href="#/categories">Categories</a></li>
+							</ul>
+						</nav>
+						<div id="mobile-menu-overlay"></div>
+					</div>
+
+
+					<div class="login-menu">
+						<ul class="nav-menu">
+							<div class="form-group shadow-textarea">
+								<input type="text" class="form-control z-depth-1 nav-search"
+									id="exampleFormControlTextarea6" placeholder="Search...">
+							</div>
+							<li><i class="glyphicon glyphicon-search nav-icons"
+								title="search"></i></li>
+							<li><a href="#post"><i class="glyphicon glyphicon-plus nav-icons"
+								title="Create Post"></i></a></li>
+							<li><i class="glyphicon glyphicon-bell nav-icons"
+								title="Notification"></i></li>
+							<li><i class="glyphicon glyphicon-edit nav-icons"
+								title="My Profile"></i></li>
+							<li><a href="#login"><i class="glyphicon glyphicon-off"
+									title="Logout"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+				<!--#header-->
+			</div>
+			<!--.container-->
+		</div>
+		<div ng-view></div>
+		
+		<!-- Footer -->
+		<div class="main-content" ng-show="navBar">
+			<div class="fluid-container">
+
+				<div class="content-wrapper">
+					<div class="row" id="footer">
+						<div class="col-md-12 text-center">
+							<p class="copyright-text">Copyright &copy; 2018 RevMeUp</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="js/controllers/mainController.js"></script>
+	<script src="js/controllers/loginController.js"></script>
+	<script src="js/services/forecast.js"></script>
+
+	<script src="vendor/jquery-1.10.2.min.js"></script>
+	<script src="js/min/plugins.min.js"></script>
+	<script src="js/min/main.min.js"></script>
+
+	<!-- Controllers -->
+	<script src="js/controllers/mainController.js" /></script>
+	<script src="js/controllers/loginController.js" /></script>
+	<script src="js/controllers/aboutController.js" /></script>
+	<script src="js/controllers/createPostController.js" /></script>
+	<script src="js/controllers/profileEditController.js" /></script>
+
+</body>
+</html>
